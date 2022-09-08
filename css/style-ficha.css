@@ -1,0 +1,41 @@
+:root {
+    --cor1: #F27F1B;
+    --cor2: #F26E22;
+    --cor3: #260101;
+    --cor4: #F2F2F2;
+    --cor5: #0D0D0D;
+    
+}
+
+#container{
+    max-width: 540px;
+    margin: 100px auto;
+    
+    padding: 20px 40px;
+    background-color: var(--cor4);
+    border-radius: 30px;
+}
+h1{
+    margin: 40px 0;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    margin-bottom: 15px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor2);
+    font-size: 18px;
+    padding: 15px 30px;
+    border: 1px solid var(--cor5);
+    border-radius: 30px;
+    box-shadow: 2px 2px 0 1px rgba(0, 0, 0, 0.562);
+}
+a:hover{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    border: none;
+}

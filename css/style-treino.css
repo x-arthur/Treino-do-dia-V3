@@ -1,0 +1,21 @@
+
+h1,h2{
+    text-align: center;
+    margin: 50px;
+}
+    iframe{
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 25px;
+}ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    margin-bottom: 15px;
+}
